@@ -36,7 +36,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     radio.sendNumber(456)
 })
-radio.setGroup(23)
+radio.setGroup(69)
 basic.forever(function () {
 	
 })
