@@ -1,16 +1,42 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    basic.showLeds(`
-        . . # . .
-        # # # # #
-        # . # . #
-        # # # # #
-        # . . . #
-        `)
+    if (receivedNumber == 123) {
+        basic.showLeds(`
+            # . . . .
+            . # . # .
+            # # # # #
+            . # . # .
+            # . . . .
+            `)
+    } else if (receivedNumber == 456) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            # # # . .
+            # . # # #
+            # # # . .
+            `)
+    } else if (receivedNumber == 789) {
+        basic.showLeds(`
+            # # . # .
+            . # . # .
+            . # # # #
+            . # . # .
+            # # . # .
+            `)
+    } else {
+    	
+    }
 })
 input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(63)
+    radio.sendNumber(123)
 })
-radio.setGroup(69)
+input.onButtonPressed(Button.AB, function () {
+    radio.sendNumber(789)
+})
+input.onButtonPressed(Button.B, function () {
+    radio.sendNumber(456)
+})
+radio.setGroup(23)
 basic.forever(function () {
 	
 })
