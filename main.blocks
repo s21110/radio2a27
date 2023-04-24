@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ey7v;r#?Gz-5cXgpbX$g" x="-359" y="-363"><statement name="HANDLER"><block type="radio_set_group" id="]Dk*c1j2Ju+g6GnmCFs7"><value name="ID"><shadow type="math_number_minmax" id="A+~b*;Q4gyH`#qkEF%Wp"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">69</field></shadow></value></block></statement></block><block type="device_button_event" id="W#;Zrb%N+.j15K7P-cfJ" x="-348" y="-21"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="~#9p6E_4mk9WyE=9[(7R"><value name="value"><shadow type="math_number" id="=AEQiqZK_X.CiN$v0ba1"><field name="NUM">63</field></shadow></value></block></statement></block><block type="radio_on_number_drag" id="S[,TG~WH:a)DNf7?c0j~" x="0" y="0"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id=";?*$nlBSKB}@R0h=hklw"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="device_show_leds" id="C|[J:eXyQ$Y=-1w50[!F"><field name="LEDS">`
+        . . # . . 
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        # . . . #
+        `</field></block></statement></block><block type="device_forever" id="wG?1Lc7$pI;zL@ZA^+#H" x="-388" y="244"></block></xml>
