@@ -11,8 +11,8 @@ radio.onReceivedNumber(function (receivedNumber) {
         basic.showLeds(`
             . # . # .
             . # . # .
-            # # # . .
-            # . # # #
+            # # # . #
+            # . # # .
             # # # . .
             `)
     } else if (receivedNumber == 789) {

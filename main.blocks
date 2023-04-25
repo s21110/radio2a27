@@ -7,8 +7,8 @@
         `</field></block></statement><value name="IF1"><block type="logic_compare" id="B9/9cv:ea9t*6dlIh8?%"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="Zpv/;W*ZY.,N]y6hgsBW"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="YesU-3[-Byh,Uo6EM63^"><field name="NUM">456</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="4.:mJ9|HT4c~8+?,S-eP"><field name="LEDS">`
         . # . # . 
         . # . # . 
-        # # # . . 
-        # . # # # 
+        # # # . # 
+        # . # # . 
         # # # . .
         `</field></block></statement><value name="IF2"><block type="logic_compare" id="!wUc0t_=BFYN{)!xE+OY"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="b`;Y3~`-lW/B?(48#-v@"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="Gi2{mggG7kzz!^vqG~{y"><field name="NUM">789</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="4.nxC8NkHdul,N~0**~i"><field name="LEDS">`
         # # . # . 
